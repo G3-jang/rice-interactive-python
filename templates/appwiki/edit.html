@@ -1,0 +1,15 @@
+{%extends "appwiki/base.html"%}
+{% block title%}
+{{page_name}}
+{%endblock%}
+{%block content%}
+<h1>{{ page_name }}</h1>
+<form action="/wikicamp/{{page_name}}/save/" method="POST">
+{% csrf_token %}
+<textarea name="content" rows="30" cols="50"> {{content}}</textarea>
+<br/>
+Tag: <input type="text" name="tagname" value="{{tags}}"/>
+<br/>
+<input type="submit" value="Save ">
+</form>
+{%endblock%}

@@ -1,0 +1,25 @@
+[
+{
+ "model": "poll.poll",
+ "pk": 1,
+ "fields": {
+    "question": "What is your favourite food?"
+  }
+},
+{
+ "model": "poll.poll",
+ "pk": 2,
+ "fields": {
+    "question": "Who is your favourite actor?"
+  }
+},
+{
+ "model": "poll.choice",
+ "pk": 1,
+ "fields": {
+    "choice_text": "Kamal Haasan"
+	"poll" : 
+  }
+}
+
+]

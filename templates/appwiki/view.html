@@ -1,0 +1,10 @@
+{%extends "appwiki/base.html"%}
+{% block title%}
+{{page_name}}
+{%endblock%}
+{%block content%}
+A page for <strong>{{ page_name }}</strong> does not exist.
+Do you want to <a href="/wikicamp/{{page_name}}/edit/">create one?</a>
+
+
+{%endblock%}

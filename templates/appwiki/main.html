@@ -1,0 +1,15 @@
+{%extends "appwiki/base.html"%}
+{% block title%}
+{{page.page_name}}
+{%endblock%}
+{%block content%}
+{{page.content}}
+<hr/>
+Do you want to <a href="/wikicamp/{{page.page_name}}/edit/">Edit your page?</a>
+<hr/>
+<form action="/wikicamp/{{page_name}}/search/" method="POST">
+{% csrf_token %}
+Enter the keyword to search for related pages: <input type="text" name="termname" value="{{term_value}}"/>
+<input type="submit" value="Search ">
+</form>
+{%endblock%}
