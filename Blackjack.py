@@ -198,4 +198,3 @@ deal()
 frame.start()
 
 
-# remember to review the gradic rubric
