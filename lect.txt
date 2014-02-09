@@ -1,0 +1,34 @@
+if u instal south , you dont need to do syncdb anymore
+--->>python manage.py schemamigration appname --initial
+
+above command creates a initial0001.py file ,which stores the create table and have the intial data
+you can do this before you create a django project
+
+
+else you have to replace the above command to --auto in place of initial
+which creates another 0002.py file with the modified class structure
+
+--->>python manage.py migrate appname
+checks initial and auto .py file and migrate 
+
+
+--->> python manage.py convert_to_south appname
+if u have already created a db and tables and then u installed south 
+then u can use above cmnd first for the paticular app
+then proceed with schema migration auto
+
+---> auto creates a .py file in local server inside app
+
+--->migrate appname then do its job in db
+
+---->python manage.py migrate --fake appname
+
+above cmnd is used when you delete a modified 0002 file from db,but you have a copy of 0002.py file inside migration folder, to get that .py from migration to db
+
+other way rnd
+if u have 0002 in db but u delete 0002.py file from migration folder den ,delete 0002 from db den do schema migration and do migrate
+-------------------------------------------------------------------------------------------------------------------------------
+To get the values that user entered use
+re
+--------------------------------------------------------------
+middleware adds an attribute to request 
