@@ -1,5 +1,5 @@
-# Rock-paper-scissors-lizard-Spock template
-
+#G3 Interactive Python
+#1 Rock-paper-scissor
 
 # The key idea of this program is to equate the strings
 # "rock", "paper", "scissors", "lizard", "Spock" to numbers

@@ -1,5 +1,5 @@
 #G3 Interactive Python
-#Mini-project #2 Guess the number
+#2 Guess the number
 import random
 import simplegui
 import math

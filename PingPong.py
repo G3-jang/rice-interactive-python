@@ -1,5 +1,5 @@
 #G3 Interactive Python
-# #Mini-project #4 PingPong
+#4 PingPong
 
 import simplegui
 import random

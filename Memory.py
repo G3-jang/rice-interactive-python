@@ -1,5 +1,5 @@
 #G3 Interactive Python
-#Mini-project #5 Memory
+#5 Memory
 #test comment
 import simplegui
 import random

@@ -1,5 +1,5 @@
 #G3 Interactive Python
-#Mini-project #8 Ricerocks
+#8 Ricerocks
 import simplegui
 import math
 import random

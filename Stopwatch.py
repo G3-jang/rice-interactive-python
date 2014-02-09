@@ -1,5 +1,5 @@
 #G3 Interactive Python
-#Mini-project #3 Stopwatch
+#3 Stopwatch
 import simplegui
 import time
 

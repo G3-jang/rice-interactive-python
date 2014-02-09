@@ -1,5 +1,5 @@
 #G3 Interactive Python
-# Mini-project #6 - Blackjack
+#6 - Blackjack
 
 import simplegui
 import random

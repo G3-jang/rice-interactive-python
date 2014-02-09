@@ -1,5 +1,5 @@
 #G3 Interactive Python
-#Mini-project #7 Spaceship
+#7 Spaceship
 import simplegui
 import math
 import random
