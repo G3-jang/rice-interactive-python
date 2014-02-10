@@ -10,7 +10,7 @@ rem_guess = 7
 range_value = 1
 
 
-
+#adding print messages to make the program more interactive
 print "Hi there!"
 print ("\nWell , I'm thinking of a number ")
 print ("\nTry guessin it !")
